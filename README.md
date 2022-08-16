@@ -7,7 +7,7 @@ Working with the Alphabet Soup Charity organization, the goal of this project is
 During preprocessing, we made our target the Column that was "IS_SUCCESSFUL" as success rate is the main determinate for approving applications. We then determined our features to be APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and STATUS while removing EIN, NAME, SPECIAL_CONSIDERATIONS, and ASK_AMT.
 
 ### Compiling, Training, and Evaluating the Model
-In round one of processing, the neural network included two hidden layers using the ReLu activation function. This led to about a 72.4 accuracy. After trying optimization by adding a third hidden layer and increasing the neuron per layer, the accuracy decreased. Oh no! 
+In round one of processing, the neural network included two hidden layers using the ReLu activation function. This led to about a 72.4 accuracy. After trying optimization by adding a third hidden layer and increasing the neuron per layer, the accuracy decreased. Oh no! I was not able to hit the target performance. 
 
 **Round 1:**
 
@@ -24,3 +24,4 @@ In round one of processing, the neural network included two hidden layers using 
 ![Optimization2](https://user-images.githubusercontent.com/102122063/184793612-a7cb19b2-6a66-4b93-b9a1-ef961b86205a.PNG)
 
 ## Summary
+It is possible that the data was overfitting, and I am curious if lowering the neurons would have increased performance. I maybe should try it! If I had to suggest, I would suggest either Random Forest Learning or even SVM with this data set. I think both can offer more opportunities to process a lot of data without having to convert data or minimize data. 
